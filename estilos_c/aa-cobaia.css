@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Fjalla+One&family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{  margin: 0%;
+    padding: 0%;}
+
+
+body 
+{   height: 100vh;
+    background-color: #000000;
+    color: #50bfce
+    box-sizing: border-box;
+}
+
+strong{ color: #bbfd22;}
+h1{font-weight: bold;}
+
+span{
+    color: #2293fd;
+    border: 3px solid #bbfd22;
+    padding: 01px;}
+
+.ajudar{color: #bbfd22;}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex; /* or inline-flex */
+    align-items: center;
+    justify-content:space-between}
+
+.apresentacao_conteudo 
+{`width: 615px; 
+  display: flex; 
+  flex-direction: column
+
+}
+
+.apresentacao_conteudo_titulo
+    { font-size: 41px;
+      font-family: 'Fjalla One', sans-serif; }
+
+.apresentacao_conteudo_p
+    { font-size: 20px;
+      font-family: 'Montserrat',sans-serif;}
+
+.apresentacao_link
+{display: flex;
+ justify-content: space-between;   
+  }
+
+.apresentacao_link_b
+    { background-color: #0f92a3;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
+    color-scheme: blue;
+    border-image:stretch 
+}
+

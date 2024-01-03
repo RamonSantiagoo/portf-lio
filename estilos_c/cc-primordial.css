@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Fjalla+One&family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+:root{
+    --cor_primaria: rgb(24, 23, 23);
+    --cor_secundaria: #22D4FD;
+    --cor_terciaria: rgb(160, 255, 255);
+    --cor_hover: #1a9bb8;
+    --fontes_principal:'Fjalla One', sans-serif;
+    --fonte_sec:'Montserrat',sans-serif;
+
+    /* apresentou bugs espontaneos */
+    /* dps eu organiço tudo */
+}
+
+
+*{ padding: 0%;
+    margin: 0%; }
+
+.body{ 
+    /* height: 100vh; */
+    background-color: rgb(24, 23, 23);
+    background-image: none;
+    color: rgb(160, 255, 255);
+    box-sizing: border-box;
+}
+
+
+    .cabeca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80;
+
+}
+    
+    
+.cabeca_m_link{
+    font-family: 'Montserrat',sans-serif;
+    color: #22D4FD;
+    font-size: 1.62rem;
+    margin: 1.25rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    justify-content:space-between;
+    gap: 1.25rem;
+    text-decoration: none;
+ }
+    
+.cabeca_m_link:hover{
+    color: #1a9bb8;
+    font-weight: 600;
+ }
+
+.corpo_conteudo{
+    width: 50%; 
+
+}
+ 
+
+
+.corpo{ 
+    margin: 3.75rem;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between
+    gap: 80px;
+    
+    
+}
+    
+.corpo_imagem{
+    width: 50%;
+}
+
+
+
+.titulo_novo{
+    font-size: 2.50rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: #22D4FD
+}
+
+
+
+.corpo_paragrafo{ 
+    font-size: 1.26rem;
+    font-family:'Montserrat',sans-serif ;
+    font-weight: 500;
+    gap: 1.25rem;
+    margin-bottom: 1rem
+}
+
+
+
+ 
+ 
+ .rodape{ 
+    background-color: #1a9bb8;
+    padding: 1.56rem;
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+    font-size: 1.50rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+
+@media (max-width: 1200px) 
+{
+    
+    .cabeca{
+        padding:4% ;
+    }
+    
+    
+    .corpo {
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+    
+    .corpo_paragrafo{
+        font-size: 1rem;
+        gap: 1rem;
+    }
+ 
+
+}
